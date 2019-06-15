@@ -4,8 +4,13 @@
   "description": "Note app back end",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Austin Cliff",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
 }
